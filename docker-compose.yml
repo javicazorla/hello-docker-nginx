@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+  web:
+    image: hola-docker
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
